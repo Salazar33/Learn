@@ -1,0 +1,13 @@
+first find a ip which has a open port 53/
+nmap -sC -sV -p 53 10.10.11.0/24 
+these kind things.
+
+
+#reverse dns
+nslookup [ip]
+to find domains running on this host.
+$$$$$$$$$
+
+zone transfer
+dig axfr domain.com @[ip]
+find which are the domains are running.
